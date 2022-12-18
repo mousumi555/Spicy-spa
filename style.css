@@ -1,0 +1,214 @@
+*{padding: 0 ; margin: 0; box-sizing: border-box;
+    font-family: 'Poppins', sans-serif;
+}
+header{
+    width: 100%;
+    height: 80vh;
+    border-top: 6px solid  rgb(172, 33, 109);
+    background: url(image/header-top-bg.gif);
+    background-size: cover;
+}
+nav{
+    background: url(image/menu-bg.png);
+    background-size: cover;
+    width: 100%;
+    height: 150px;
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    padding: 0 70px;
+    flex-wrap: wrap;
+}
+.menu a{
+    text-decoration: none;
+    color: grey;
+    padding: 10px 20px;
+    font-size: 20px;
+    font-family: sans-serif;
+}
+.menu a:first-child{
+    color:rgb(199, 47, 138) ;
+}
+.swiper {
+    width: 100%;
+    padding-top: 50px;
+    padding-bottom: 50px;
+  }
+
+  .swiper-slide {
+    background-position: center;
+    background-size: cover;
+    width: 350px;
+    height: 350px;
+  }
+
+  .swiper-slide img {
+    display: block;
+    width: 100%;
+    height: 100%;
+  }
+  .gap{
+    margin-top: 30px;
+  }
+#first{
+    width: 100%;
+    padding: 50px;
+}
+
+.f-container{
+    width: 100%;
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    flex-wrap: wrap;
+}
+.f-left{
+    flex-basis: 70%;
+}
+.f-right{
+    flex-basis: 30%;
+}
+.card-container{
+    width: 100%;
+    display: flex;
+    justify-content: space-around;
+    align-items: center;
+    flex-wrap: wrap;
+
+}
+.f-left .card-box{
+    flex-basis: 40%;
+    display: flex;
+}
+.f-left .card-box div{
+    padding: 15px;
+}
+.f-left .card-box img{
+    width: 50%;
+}
+.f-right .card-box img{
+    width: 100%;
+}
+.card-box span{
+    color:rgb(199, 47, 138) ;
+}
+.part2{
+    margin-top: 4em;
+}
+.f-left h1{
+  font-size: 2em;
+  margin-bottom: 30px;
+}
+.f-right h1{
+    font-size: 2em;
+    margin-bottom: 30px;
+  }
+.f-left span{
+    color:rgb(199, 47, 138) ;
+}
+.f-right span{
+    color:rgb(199, 47, 138) ;
+}
+#second{
+    width: 100%;
+    padding: 50px;
+}
+.card{
+    width: 100%;
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    flex-wrap: wrap;
+}
+.box{
+    flex-basis: 20%;
+}
+.box div{
+    margin: 10px;
+    border-top: 1px solid rgb(199, 47, 138);
+}
+.box div p{
+    font-size: 15px;
+    margin: 10px 0;
+}
+.box div button{
+    background: transparent;
+    border: none;
+    outline: none;
+    border-radius: 8px;
+    padding: 10px 20px;
+    background: rgb(199, 47, 138);
+    color: white;
+    margin-top: 15px;
+}
+footer{
+    background: url(image/footer-bg.png);
+    background-size: 50% 50%;
+    width: 100%;
+    color: white;
+    padding: 20px;
+}
+footer div{
+    padding: 10px;
+}
+footer i{
+    font-size: 20px;
+    border: 1px solid white;
+    padding: 10px;
+    border-radius: 10px;
+    margin: 10px;
+    transition: 0.4s;
+
+}
+footer i:hover{
+ background:rgb(199, 47, 138) ;
+}
+footer p{
+    cursor: pointer;
+}
+footer p:hover{
+    color: rgb(199, 47, 138);
+}
+.card2{
+    align-items: flex-start;
+}
+
+
+@media screen and (max-width: 770px){
+    nav{
+    padding: 0 20px;
+}
+.logo{
+    flex-basis: 100%;
+    text-align: center;
+}
+.menu a{
+    padding: 10px;
+}
+.swiper-slide {
+    background-position: center;
+    background-size: cover;
+    width: 300px;
+    height: 300px;
+  }
+  .f-left{
+    flex-basis: 100%;
+}
+.f-right{
+    flex-basis: 100%;
+    margin-top: 15px;
+}
+.f-left .card-box{
+    flex-basis: 100%;
+    display: flex;
+    margin: 15px 0;
+}
+#second{
+    width: 100%;
+    padding:0 50px;
+}
+.box{
+    flex-basis: 100%;
+    margin: 15px 0;
+}
+}
